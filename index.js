@@ -1,14 +1,13 @@
 console.log("JS testing")
 
-var a = 10;
-let b = "deep";
-let c = 20;
+var c = 10;
+let a = "deep";
+let b = 20;
 
-
-//console.log(a+b+c);
+console.log(a+b+c);
 
 {
-    var a = 55;     
+    var c = 55;     
     console.log(a);
 }
 console.log(a);
@@ -16,16 +15,7 @@ console.log(a);
 console.log(typeof a, typeof b, typeof c);
 
 
-function demo() {
-  if (true) {
-    var a = 1;
-    let b = 2;
-  }
-  console.log(a);
-  console.log(b);
-}
 
-demo();
 
 let x = "deepank";
 let y = 5.55;
@@ -42,3 +32,26 @@ let o = {
 console.log(o);
 (o).Salary = "100crore"
 console.log(o);
+
+
+let h = {
+    name : "Deep",
+    Country : "UK",
+    Car : "venue",
+    "Job posting" : "Albania",
+    New_role : "dev"
+
+}
+
+console.log(h);
+
+
+let Round_the_clock = {
+    Name : "RTC",
+    Employees : 1000,
+    turnover : "1000000crore",
+    is_active : true,
+    is_bad : false,
+    working_hours : "9 to 5:30" 
+}
+console.log(Round_the_clock);
